@@ -37,7 +37,7 @@ const App = () => {
   };
   return (
     <Container fluid>
-      <h1>Todo with LOCAL STORAGE</h1>
+      <h1 style={{fontWeight:"bolder",letterSpacing:"15px"}}>Todo with LOCAL STORAGE</h1>
       <hr color="white" />
       <Todos todos={todos} markTodoCompleted={markTodoCompleted} />
       <TodoForm addTodos={addTodos} />
